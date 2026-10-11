@@ -11,7 +11,15 @@ download URL an installed app carries never changes.
 | `android-latest` | `version.json` | `app-android-release.apk` |
 | `tv-latest` | `version.json` | `app-tv-release.apk` |
 
-The recorder is a container image, `ghcr.io/flowerspowerz/recorder` (x86 and ARM): install and linking in
-[RECORDER.md](RECORDER.md).
+## Recorder
+
+An always-on machine on the home network (NAS, mini PC, Raspberry Pi 4/5) that records instead of the phone.
+Container image for x86 and ARM:
+
+```
+docker pull ghcr.io/flowerspowerz/recorder:latest
+```
+
+**[Install and link it → RECORDER.md](RECORDER.md)** (italiano e English).
 
 No source code here.
